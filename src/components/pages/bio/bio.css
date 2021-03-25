@@ -67,7 +67,6 @@
         left: 50%;
         transform: translateX(-50%);
         width: 53%;
-        border: 2px red solid;
         margin: 0 auto;
     }
     
