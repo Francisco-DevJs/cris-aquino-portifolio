@@ -1,7 +1,7 @@
 import NavBar from '../src/components/navBar/navBar.js'
 import Home from './components/pages/home/home.js';
 import { BrowserRouter as Router, Switch, Route, withRouter  } from 'react-router-dom';
-import './app.css'
+import './app.css';
 import Bio from './components/pages/bio/bio.js';
 import Services from './components/pages/services/services.js';
 import { TransitionGroup, CSSTransition } from "react-transition-group";
