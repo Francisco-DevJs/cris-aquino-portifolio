@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dcb4f869.chunk.css",
+    "main.js": "/static/js/main.19b2d75d.chunk.js",
+    "main.js.map": "/static/js/main.19b2d75d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0cf30f17.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0cf30f17.js.map",
+    "static/js/2.9d37c6e0.chunk.js": "/static/js/2.9d37c6e0.chunk.js",
+    "static/js/2.9d37c6e0.chunk.js.map": "/static/js/2.9d37c6e0.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.dcb4f869.chunk.css.map": "/static/css/main.dcb4f869.chunk.css.map",
+    "static/js/2.9d37c6e0.chunk.js.LICENSE.txt": "/static/js/2.9d37c6e0.chunk.js.LICENSE.txt",
+    "static/media/bronie.4ddfa7d4.jpg": "/static/media/bronie.4ddfa7d4.jpg",
+    "static/media/chef-removebg-preview.acf0e72c.png": "/static/media/chef-removebg-preview.acf0e72c.png",
+    "static/media/focaccia-genovese1.31fde15f.jpg": "/static/media/focaccia-genovese1.31fde15f.jpg",
+    "static/media/noiva.767870e9.jpg": "/static/media/noiva.767870e9.jpg",
+    "static/media/pavlova.0f25b960.jpg": "/static/media/pavlova.0f25b960.jpg",
+    "static/media/videoplayback (online-video-cutter.com).9e8e89d4.mp4": "/static/media/videoplayback (online-video-cutter.com).9e8e89d4.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0cf30f17.js",
+    "static/js/2.9d37c6e0.chunk.js",
+    "static/css/main.dcb4f869.chunk.css",
+    "static/js/main.19b2d75d.chunk.js"
+  ]
+}
