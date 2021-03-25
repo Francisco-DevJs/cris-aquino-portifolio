@@ -44,20 +44,31 @@ html{
 .hero-btns .btn {
   margin: 6px;
 }
+@media screen and (min-width: 1024px) {
+  .hero-container > h1 {
 
+    font-size: 4rem;
+    margin-top: -90px;
+    text-align: center;
+
+  }
+}
 
 @media screen and (max-width: 960px) {
   .hero-container > h1 {
-    font-size: 50px;
-    margin-top: -150px;
+    width: 70%;
+    font-size: 35px;
+    margin-top: -90px;
+    text-align: center;
   }
 }
 
 @media screen and (max-width: 768px) {
   .hero-container > h1 {
     width: 70%;
-    font-size: 50px;
+    font-size: 35px;
     margin-top: -90px;
+    text-align: center;
   }
 
   .hero-container > p {
