@@ -24,7 +24,7 @@ function Cards(){
                     <ul className='cards__items'>
                         <CardItem 
                             src={focaccia}
-                            text='Focaccia Alecrin e Azeite'
+                            text='Focaccia Alecrim e Azeite'
                             label='Italiana'
                             path='/services'
                         />

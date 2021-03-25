@@ -4,12 +4,9 @@ video {
   height: 100%;
   position: fixed;
   z-index: -1;
+  top:0;
 }
-html{
-  /* overflow-x: hidden; */
-  /* overflow: hidden; */
 
-}
 .hero-container {
   
   letter-spacing: 2px;
@@ -24,17 +21,9 @@ html{
   object-fit: contain;
 }
 
-
-
-.hero-container > p {
-  margin-top: 8px;
-  color: #fff;
-  font-size: 32px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
-}
 .hero-container > h1 {
-  font-size: 2.7rem;
+  font-size: 3rem;
+  text-align: center;
 }
 
 .hero-btns {
@@ -43,7 +32,12 @@ html{
 
 .hero-btns .btn {
   margin: 6px;
+
 }
+.hero-btns .btn {
+  font-size: 2.3rem;
+}
+
 @media screen and (min-width: 1024px) {
   .hero-container > h1 {
 
@@ -52,7 +46,12 @@ html{
     text-align: center;
 
   }
+  .hero-btns .btn {
+    font-size: 1.3rem;
+  }
+
 }
+
 
 @media screen and (max-width: 960px) {
   .hero-container > h1 {
@@ -61,19 +60,20 @@ html{
     margin-top: -90px;
     text-align: center;
   }
+  .hero-btns .btn {
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .hero-container > h1 {
     width: 70%;
     font-size: 35px;
-    margin-top: -90px;
+    margin-top: 0rem;
     text-align: center;
   }
 
-  .hero-container > p {
-    font-size: 30px;
-  }
 
   .btn-mobile {
     display: block;
@@ -83,5 +83,5 @@ html{
   .btn {
     width: 100%;
   }
-  video{text-align: center; margin: 0 auto; width: 100%;}
+  video{text-align: center; margin: 0rem; top:0; width: 100%; height: 100%;}
 }
