@@ -4,6 +4,11 @@ import focaccia from '../../assets/focaccia-genovese1.jpg'
 import pavlova from '../../assets/pavlova.jpg'
 import noiva from '../../assets/noiva.jpg'
 import bronie from '../../assets/bronie.jpg'
+import redvelvet from '../../assets/redvelvet.jpg'
+import humita from '../../assets/humita.jpeg'
+import ratatouile from '../../assets/ratatouille.jpg'
+import cupcake from '../../assets/cupcake.jpg'
+import banofee from '../../assets/banofee.jpg'
 import './cards.css';
 import under from '../../assets/28e600e10e6c321583973ce5912c3fd7.png'
 function Cards(){
@@ -26,13 +31,13 @@ function Cards(){
                         <CardItem 
                             src={pavlova}
                             text='Pavlova'
-                            label='Nova Zelândia'
+                            label='Australiana'
                             path='/services'
                         />
                         <CardItem 
                             src={noiva}
                             text='Bolo de Noiva'
-                            label='Pernambucano'
+                            label='Pernambucana'
                             path='/services'
                         />
                         <CardItem 
@@ -42,27 +47,27 @@ function Cards(){
                             path='/services'
                         />
                         <CardItem 
-                            src={focaccia}
-                            text='Focaccia Alecrin e Azeite'
-                            label='Italiana'
+                            src={redvelvet}
+                            text='Red Velvet'
+                            label='Americana'
                             path='/services'
                         />
                         <CardItem 
-                            src={focaccia}
-                            text='Focaccia Alecrin e Azeite'
-                            label='Italiana'
+                            src={humita}
+                            text='Humita'
+                            label='Americana Latina'
                             path='/services'
                         />
                         <CardItem 
-                            src={focaccia}
-                            text='Focaccia Alecrin e Azeite'
-                            label='Italiana'
+                            src={ratatouile}
+                            text='Ratatouille'
+                            label='Francesa'
                             path='/services'
                         />
                         <CardItem 
-                            src={focaccia}
-                            text='Focaccia Alecrin e Azeite'
-                            label='Italiana'
+                            src={banofee}
+                            text='Torta Banofee'
+                            label='Inglesa'
                             path='/services'
                         />
                     </ul>

@@ -65,15 +65,19 @@
   
   .nav-item:hover {
     box-sizing: border-box;
-    border-bottom: 4px solid #fff;
-    transition: all 0.2s ease-out;
+    border-bottom: 3px solid #fff;
+    transition: all 0.3s ease-out;
+    color: rgb(37, 37, 37);
   }
-  .nav-item:checked{
-    transition: all 0.2s ease-out;
+  .nav-links:hover{
+    color: rgb(117, 117, 117);
+    transition: all 0.5s ease-out;
+  }
 
-  }
   .active{
     border-bottom: 4px solid #fff;
+    color: rgb(196, 193, 193);
+
   }
   .active:hover{
     border-bottom: none;
