@@ -1,7 +1,7 @@
 
 .navbar {
-    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
-    background-color: black;
+  background-color: black;
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
     height: 80px;
     display: flex;
     justify-content: center;
@@ -133,7 +133,7 @@
       padding: 1rem;
       width: 100%;
       display: table;
-      font-size: 1.8rem;
+      font-size: 1.4rem;
      
     }
   
@@ -158,7 +158,7 @@
       top: 0;
       right: 0;
       transform: translate(-100%, 60%);
-      font-size: 1.8rem;
+      font-size: 1.6rem;
       cursor: pointer;
     }
   
@@ -175,14 +175,13 @@
       border-radius: 4px;
       width: 80%;
       text-decoration: none;
-      font-size: 1.5rem;
       background-color: transparent;
       color: #fff;
       padding: 14px 20px;
       transition: all 0.3s ease-out;
       background: #fff;
       color: #242424;
-      font-size: 1rem;
+      font-size: 1.2rem;
     }
     .active{
       border:none;
